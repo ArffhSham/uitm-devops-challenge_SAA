@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:rentverse_mobile/features/security/ui/activity_log_screen.dart';
-import 'package:rentverse_mobile/features/security/ui/anomaly_list_screen.dart';
- import 'package:rentverse_mobile/features/property/ui/listing_review_screen.dart';
+import '../../security/ui/activity_log_screen.dart';
+//import '../../security/ui/admin_dashboard.dart';
+import '../../property/ui/listing_review_screen.dart';
+import '../../security/ui/anomaly_list_screen.dart';
+
 
 class AdminDashboard extends StatelessWidget {
   const AdminDashboard({super.key});
